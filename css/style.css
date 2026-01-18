@@ -1,0 +1,42 @@
+body.nether {
+  background: #1a0000;
+  color: #ff4444;
+  font-family: Arial;
+  text-align: center;
+}
+
+.card {
+  background: #2b0000;
+  padding: 15px;
+  margin: 15px auto;
+  width: 300px;
+  border-radius: 8px;
+}
+
+button {
+  background: #ff3300;
+  border: none;
+  padding: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.tabs button {
+  margin: 5px;
+}
+
+.tab {
+  display: none;
+}
+
+.bar {
+  width: 200px;
+  height: 20px;
+  background: #330000;
+  margin: auto;
+}
+
+.bar div {
+  height: 100%;
+  background: #ff0000;
+}

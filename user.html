@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel do Usuário</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="nether">
+
+<h2>👤 Painel do Usuário</h2>
+
+<div class="tabs">
+  <button data-tab="tarefas">📋 Tarefas</button>
+  <button data-tab="xp">⭐ XP</button>
+  <button data-tab="eventos">🎯 Eventos</button>
+  <button data-tab="stats">📊 Estatísticas</button>
+</div>
+
+<!-- TODOS PODEM CRIAR TAREFAS -->
+<div class="card">
+  <input id="novaTarefaUser" placeholder="Nova tarefa">
+  <select id="prioUser">
+    <option>Alta</option>
+    <option>Média</option>
+    <option>Baixa</option>
+  </select>
+  <button id="btnCriarTarefaUser">Criar Tarefa</button>
+</div>
+
+<div id="tarefas" class="tab"></div>
+<div id="xp" class="tab"></div>
+<div id="eventos" class="tab"></div>
+<div id="stats" class="tab"></div>
+
+<script src="./js/user.js"></script>
+</body>
+</html>

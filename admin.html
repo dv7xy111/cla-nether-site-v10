@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel Admin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="nether">
+
+<h2>👑 Painel Administrativo</h2>
+
+<div class="card">
+  <input id="novaTarefa" placeholder="Nova tarefa">
+  <select id="prioridade">
+    <option>Alta</option>
+    <option>Média</option>
+    <option>Baixa</option>
+  </select>
+  <button onclick="criarTarefa()">Criar Tarefa</button>
+</div>
+
+<div class="card">
+  <input id="novoEvento" placeholder="Novo evento">
+  <button onclick="criarEvento()">Criar Evento</button>
+</div>
+
+<script src="./js/auth.js"></script>
+</body>
+</html>
